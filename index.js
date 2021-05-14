@@ -3,7 +3,6 @@ const path = require('path');
 const _ = require('lodash');
 const csv = require('csv-parser');
 const iconv = require('iconv-lite');
-const bodyParser = require('body-parser');
 const express = require('express');
 const parse = require('date-fns/parse');
 

@@ -6,7 +6,7 @@
         <div class="container">
             <ul>
             <%event_data.forEach(function(entry) {%>
-                <li><%=entry.institute%>: <a href="<%= entry.link %>">Zoom Link</a> | <a href="/pdf/<%= entry.institute%>.pdf">PDF Link</a></li>
+                <li><span class="tre inst-<%=entry.institute%>"><%=entry.institute%></span>: <a href="<%= entry.link %>">Zoom Link</a> - <a href="/pdf/<%= entry.institute%>.pdf">PDF Link</a></li>
             <%});%>
             </ul>
             <h2 class="py-2">Aktuelle Kolloquien</h2>
