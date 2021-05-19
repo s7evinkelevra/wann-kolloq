@@ -6,17 +6,17 @@
         <div class="container">
             <ul>
             <%event_data.forEach(function(entry) {%>
-                <li><span class="tre inst-<%=entry.institute%>"><%=entry.institute%></span>: <a href="<%= entry.link %>">Zoom Link</a> - <a href="/pdf/<%= entry.institute%>.pdf">PDF Link</a></li>
+                <li><span class="tre inst-<%=entry.institute%>"><%=entry.institute%></span>: <a href="<%= entry.link %>">Zoom Link</a> - <a href="/pdf/<%= entry.institute%>.pdf">Flyer (pdf)</a></li>
             <%});%>
             </ul>
-            <h2 class="py-2">Aktuelle Kolloquien</h2>
+            <h2 class="py-2 pt-4">Aktuelle Kolloquien</h2>
             <table id="table" class="table table-dark table-hover table-bordered mb-4">
                 <thead>
                     <tr>
                         <th>Ins.</th>
                         <th>Datum</th>
                         <th>Uhrzeit</th>
-                        <th>Sprecher</th>
+                        <th>Sprecher*in</th>
                         <th>Thema</th>
                         <th></th>
                     </tr>
