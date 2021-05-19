@@ -1,0 +1,26 @@
+<%- include('../template/head')-%>
+
+  <body>
+    <div class="cover-container mx-auto">
+      <h1 class="cover-heading masthead p-2 pb-4">Kolloquien Termine </h1>
+      <div class="container">
+        <form method="post" action="/login">
+          <p>
+            <label>Username:</label>
+            <input type="text" value="test" name="username">
+          </p>
+          <p>
+            <label>Password:</label>
+            <input type="text" name="password">
+          </p>
+          <p>
+            <input type="submit" value="Login">
+          </p>
+        </form>
+      </div>
+      <%- include('../template/footer')-%>
+    </div>
+
+  </body>
+
+  </html>
